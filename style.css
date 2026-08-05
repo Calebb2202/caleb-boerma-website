@@ -1,5 +1,9 @@
 /* #region default styles */
 
+:root {
+    color-scheme: light;
+}
+
 html {
     scroll-behavior: smooth;
     font-size: 1rem;
