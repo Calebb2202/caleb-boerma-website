@@ -4,11 +4,12 @@ const accentColors = [
   { hex: '#9BC49A', rgb: '155, 196, 154'}, // Monday - sage green
   { hex: '#BE73EA', rgb: '190, 115, 234'}, // Tuesday - dusty-teal
   { hex: '#FF7474', rgb: '255, 116, 116' }, // Wednesday - tan
-  { hex: '#6BC4B8', rgb: '107, 196, 184' }, // Thursday - purple
+  { hex: '#4D6BFE ', rgb: '77, 107, 254' }, // Thursday - purple
   { hex: '#F08A4B', rgb: '240, 138, 75' }, // Friday - 
   { hex: '#87C9FF', rgb: '135, 201, 255' }  // Saturday - 
 ];
 
+// hex: '#9BC49A', rgb: '155, 196, 154'
 const today = new Date().getDay();
 const root = document.body.style;
 root.setProperty('--accent-color', accentColors[today].hex);
